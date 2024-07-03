@@ -12,13 +12,4 @@
 This project relies on the following crates:
 - `reqwest` for making HTTP requests.
 - `tokio` for asynchronous runtime.
-- `error-chain` for simplified error handling.
-<br>
-Ensure your `Cargo.toml` includes:
-<br>
-```sh
-[dependencies]
-reqwest = { version = "0.11", features = ["json"] }
-tokio = { version = "1", features = ["full"] }
-error-chain = "0.12"
-```
+- `error-chain` for simplified error handling

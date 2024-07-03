@@ -21,3 +21,4 @@ Ensure your `Cargo.toml` includes:
 reqwest = { version = "0.11", features = ["json"] }
 tokio = { version = "1", features = ["full"] }
 error-chain = "0.12"
+```

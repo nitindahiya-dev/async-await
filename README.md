@@ -16,7 +16,7 @@ This project relies on the following crates:
 <br>
 Ensure your `Cargo.toml` includes:
 <br>
-```toml
+```sh
 [dependencies]
 reqwest = { version = "0.11", features = ["json"] }
 tokio = { version = "1", features = ["full"] }
